@@ -4,10 +4,11 @@ import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './shared/components/errors/not-found/not-found.component';
 import { PlayComponent } from './play/play.component';
 import { AuthorizationGuard } from './shared/guards/authorization.guard';
+import { LoginComponent } from './account/login/login.component';
 
 const routes: Routes = [
 
-  {path: '', component:HomeComponent},
+  {path: '', component:LoginComponent},
    {
      path:'',
      runGuardsAndResolvers: 'always',

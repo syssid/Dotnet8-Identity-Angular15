@@ -68,5 +68,5 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.UseCors(policy => policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 app.MapControllers();
-app.MapFallbackToFile("index.html");
+//app.MapFallbackToFile("index.html");
 app.Run();

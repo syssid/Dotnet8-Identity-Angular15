@@ -4,7 +4,6 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>21a4e323-79f4-42ed-bc34-cfa7b097b165</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +15,11 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
 </Project>
